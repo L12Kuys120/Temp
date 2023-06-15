@@ -1,0 +1,15 @@
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.csproj.AssemblyReference.cache
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.AssemblyInfoInputs.cache
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.AssemblyInfo.cs
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.csproj.CoreCompileInputs.cache
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\bin\Debug\net6.0\CW4.exe
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\bin\Debug\net6.0\CW4.deps.json
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\bin\Debug\net6.0\CW4.runtimeconfig.json
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\bin\Debug\net6.0\CW4.dll
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\bin\Debug\net6.0\CW4.pdb
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.dll
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\refint\CW4.dll
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.pdb
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\CW4.genruntimeconfig.cache
+C:\Users\radio\OneDrive\Документы\Seminar8_13_06_2023\HW56\obj\Debug\net6.0\ref\CW4.dll
