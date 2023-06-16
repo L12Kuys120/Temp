@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW60\\HW60.csproj": {}
+    "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW60\\HW60.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW60\\HW60.csproj": {
+    "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW60\\HW60.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW60\\HW60.csproj",
+        "projectUniqueName": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW60\\HW60.csproj",
         "projectName": "HW60",
-        "projectPath": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW60\\HW60.csproj",
+        "projectPath": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW60\\HW60.csproj",
         "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW60\\obj\\",
+        "outputPath": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW60\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config"

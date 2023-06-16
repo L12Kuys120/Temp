@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW58\\HW58.csproj",
+      "projectUniqueName": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW58\\HW58.csproj",
       "projectName": "HW58",
-      "projectPath": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW58\\HW58.csproj",
+      "projectPath": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW58\\HW58.csproj",
       "packagesPath": "C:\\Users\\radio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radio\\OneDrive\\Документы\\Seminar8_13_06_2023\\HW58\\obj\\",
+      "outputPath": "C:\\Users\\radio\\OneDrive\\Документы\\Temp\\Temp\\HW58\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radio\\AppData\\Roaming\\NuGet\\NuGet.Config"
