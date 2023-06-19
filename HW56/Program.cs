@@ -12,9 +12,10 @@ using static System.Console;
 int[,] array = GetArray(4, 4, 0, 45);
 //GetArray(array);
 PrintArray(array);
-ChangeRows(array);
+int[] res = SumRows(array);
 WriteLine();
-//PrintArray(array);
+PrintArray2(res);
+MinRow(res);
 
 
 int[,] GetArray(int m, int n, int min, int max)
@@ -43,18 +44,42 @@ void PrintArray(int[,] inArray)
     }
 }
 
-void ChangeRows(int[,] inArray)
+void PrintArray2(int[] inArray)
+{
+    for (int i = 0; i < inArray.GetLength(0); i++)
+    {
+        
+            Write($"{inArray[i],3} ");
+           
+    }  WriteLine();
+}
+
+int[] SumRows(int[,] inArray)
 
 {
     int a = inArray.GetLength(0);
     int b = inArray.GetLength(1);
     int[] sum = new int[a];
     int max = sum[0];
-    //var sum = 0;
+   
     for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < b; j++) sum[i] += inArray[i, j];        
-    }  WriteLine($"{sum}");
+    } 
+    return sum;
+}
 
-    if()
-} 
+void MinRow(int[] inArray)
+{ 
+    int minRow = 0;
+    int min = inArray[0];
+    for (int i = 1; i < inArray.Length; i++)
+    {
+        if(inArray[i] < min) 
+        {
+            min = inArray[i];
+            minRow = i;
+        }        
+    }
+    WriteLine($"Строка с мин. суммой  { minRow + 1}");
+}   WriteLine();

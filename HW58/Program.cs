@@ -50,4 +50,3 @@ int[,] MultiMatrix(int[,] arr1, int[,] arr2)
         
     }return arr3;
 }
-

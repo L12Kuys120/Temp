@@ -10,20 +10,13 @@
 
 using System;
 using static System.Console;
-
 Clear();
-/*Write("Введите количество строк массива: ");
-int rows = int.Parse(ReadLine());
-Write("Введите количество столбцов массива: ");
-int columns = int.Parse(ReadLine());*/
 
 int[,] array = GetArray(4, 5, 0, 45);
-//GetArray(array);
-PrintArray(array);
-ChangeRows(array);
-WriteLine();
-PrintArray(array);
 
+PrintArray(array);
+WriteLine();
+ChangeRows(array);
 
 int[,] GetArray(int m, int n, int min, int max)
 {
@@ -34,7 +27,6 @@ int[,] GetArray(int m, int n, int min, int max)
         {
             result[i, j] = new Random().Next(min, max + 1);
         }
-
     }
     return result;
 }
@@ -51,43 +43,28 @@ void PrintArray(int[,] inArray)
     }
 }
 
-int[,] ChangeRows(int[,] inArray)
+void ChangeRows(int[,] inArray)
 
 {
     int a = inArray.GetLength(0);
     int b = inArray.GetLength(1);
 
     for (int i = 0; i < a; i++)
-    {
-        for (int j = 1; j < b; j++)
-        {
-            if (inArray[i, j - 1] < inArray[i, j])
+    {   
+        for (int j = 0; j < b; j++)      
+            for (int k = 0; k < b; k++)
             {
-                int k = inArray[i, j - 1];
-                inArray[i, j - 1] = inArray[i, j];
-                inArray[i, j] = k;
-            }
-        }   
-         
-    }  return inArray;
-}  
-
-
-
-
-/*void SortArray(int[] inArray)
-{
-    for (int i = 0; i < inArray.Length; i++)
-    {
-        for (int j = i + 1; j < inArray.Length; j++)
-        {
-            if (inArray[i] > inArray[j])
-            {
-                int k = inArray[i];
-                inArray[i] = inArray[j];
-                inArray[j] = k;
-            }
-        }            
+                if (inArray[i, j] >= inArray[i, k]) 
+                {
+                    int temp = inArray[i, j];
+                    inArray[i, j] = inArray[i, k];
+                    inArray[i, k] = temp;
+                }
+            }        
     }
+   for (int i = 0; i < a; i++, Console.WriteLine()) 
+        for (int j = 0; j < b; j++) 
+        {             
+            Console.Write("{0,4}", inArray[i, j]);
+        }
 }
-*/
